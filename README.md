@@ -1,3 +1,40 @@
+# Lista de Tarefas com ReactJS e Firebase
+Este projeto é uma aplicação simples de uma lista de tarefas em ReactJS, que utiliza o Firebase para persistir os dados e o Tailwind CSS para estilização. É possível criar, ler, atualizar e excluir tarefas.
+
+## Como utilizar
+Para utilizar este projeto, você precisa seguir os seguintes passos:
+
+- Clone este repositório para o seu computador.
+- Insira suas credenciais do Firebase no arquivo firebase.js que está na pasta Connection do projeto.
+- Instale as dependências do projeto com o comando npm install.
+- Inicie o servidor de desenvolvimento com o comando npm start.
+## Inserindo suas credenciais do Firebase
+Para inserir suas credenciais do Firebase, você precisa seguir os seguintes passos:
+
+- Acesse o console do Firebase e crie um novo projeto.
+- Crie um banco de dados no Firestore e uma coleção com o nome "todos".
+- Crie um arquivo chamado firebase.js na pasta Connection do projeto com o seguinte conteúdo:
+
+Substitua os valores <sua_api_key>, <seu_auth_domain>, <seu_project_id>, <seu_storage_bucket>, <seu_messaging_sender_id> e <seu_app_id> com as suas próprias credenciais.
+
+## Funcionalidades
+A lista de tarefas tem as seguintes funcionalidades:
+
+Adicionar uma nova tarefa
+Marcar uma tarefa como concluída
+Editar uma tarefa existente
+Excluir uma tarefa existente
+
+## Tecnologias utilizadas
+Este projeto utiliza as seguintes tecnologias:
+
+- ReactJS
+- Firebase
+- Tailwind CSS
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
